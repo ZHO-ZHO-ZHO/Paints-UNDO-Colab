@@ -318,4 +318,4 @@ with block:
         examples_per_page=1024
     )
 
-block.queue().launch(server_name='0.0.0.0')
+block.queue().launch(share=True)
